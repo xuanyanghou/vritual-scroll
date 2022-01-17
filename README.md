@@ -46,6 +46,8 @@ export default defineComponent({
 
 ## 参数
 
-| 参数 | 说明   | 类型  | 默认值 |
-| ---- | ------ | ----- | ------ |
-| list | 数据源 | Array |
+| 参数      | 说明     | 类型   | 默认值 |
+| --------- | -------- | ------ | ------ |
+| list      | 数据源   | Array  | []     |
+| itemSize  | 每项高度 | Number | 80     |
+| domHeight | 外层高度 | Number | 300    |
