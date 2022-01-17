@@ -1,4 +1,4 @@
-# vritual-table
+# vritual-scroll
 
 > vue3 版本大数据滚动列表，复用已有 dom，优化渲染效率
 

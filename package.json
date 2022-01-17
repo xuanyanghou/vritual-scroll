@@ -1,10 +1,14 @@
 {
   "name": "vritual-scroll",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": false,
   "author": "houchunyang",
   "license": "MIT",
   "description": "Reuse element, realize multi-element high efficiency rolling for vue3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuanyanghou/vritual-table.git"
+  },
   "scripts": {
     "dev": "vue-cli-service serve --mode development",
     "build": "vue-cli-service build --mode production",
