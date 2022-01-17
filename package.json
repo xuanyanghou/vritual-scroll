@@ -1,6 +1,6 @@
 {
   "name": "vritual-scroll",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "author": "houchunyang",
   "license": "MIT",
@@ -9,6 +9,11 @@
     "type": "git",
     "url": "https://github.com/xuanyanghou/vritual-scroll.git"
   },
+  "keywords": [
+    "vue3",
+    "vritual",
+    "scroll"
+  ],
   "scripts": {
     "dev": "vue-cli-service serve --mode development",
     "build": "vue-cli-service build --mode production",
