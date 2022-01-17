@@ -15,6 +15,7 @@ $ npm install vritual-scroll -S
 ```bash
 # main.js
 import VritualScroll from 'VritualScroll'
+import 'vritual-scroll/dist/vritual-scroll.css'
 Vue.use(VritualScroll)
 ```
 
