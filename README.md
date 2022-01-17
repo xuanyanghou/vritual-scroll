@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-$ npm install vritual-table -S
+$ npm install vritual-scroll -S
 ```
 
 ## 使用
@@ -14,15 +14,15 @@ $ npm install vritual-table -S
 
 ```bash
 # main.js
-import VritualTable from 'VrituralTable'
-Vue.use(VritualTable)
+import VritualScroll from 'VritualScroll'
+Vue.use(VritualScroll)
 ```
 
-在项目中用使用 VritualTable
+在项目中用使用 VritualScroll
 
 ```js
 <template>
-  <vritual-table
+  <vritual-scroll
     style="height: 300px;"
     :domHeight=300
     :listData="list">
@@ -30,7 +30,7 @@ Vue.use(VritualTable)
       // 自定义展示内容
       <div>{{slotProps.row.name}}</div>
     </template>
-  </vritual-table>
+  </vritual-scroll>
 </template>
 <script lang="ts">
 import { defineComponent, reactive } from 'vue'

@@ -1,8 +1,8 @@
 import { App } from 'vue'
-import VritualTable from './components/VritualTable.vue'
+import VritualScroll from './components/VritualScroll.vue'
 
 export default {
   install(app: App<Element>): any {
-    app.component(VritualTable.name, VritualTable)
+    app.component(VritualScroll.name, VritualScroll)
   }
 }

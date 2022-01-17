@@ -1,23 +1,23 @@
 <template>
   <div class="app-wrap">
-    <vritual-table
+    <vritual-scroll
       style="height: 300px;"
       :domHeight=300
       :listData="list">
       <template v-slot:default="slotProps">
         <div>{{slotProps.row.name}}</div>
       </template>
-    </vritual-table>
+    </vritual-scroll>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, reactive } from 'vue'
-import VritualTable from './components/VritualTable.vue'
+import VritualScroll from './components/VritualScroll.vue'
 
 export default defineComponent({
   name: 'App',
-  components: { VritualTable },
+  components: { VritualScroll },
   setup() {
     const list = reactive([
       {
