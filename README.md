@@ -24,6 +24,7 @@ Vue.use(VritualTable)
 <template>
   <vritual-table
     style="height: 300px;"
+    :domHeight=300
     :listData="list">
     <template v-slot:default="slotProps">
       // 自定义展示内容

@@ -2,6 +2,7 @@
   <div class="app-wrap">
     <vritual-table
       style="height: 300px;"
+      :domHeight=300
       :listData="list">
       <template v-slot:default="slotProps">
         <div>{{slotProps.row.name}}</div>
