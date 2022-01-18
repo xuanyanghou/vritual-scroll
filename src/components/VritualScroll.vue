@@ -15,7 +15,7 @@
         class="infinite-list-item" 
         v-for="item in visibleData"
         :key="item.id"
-        :style="{ height: itemSize + 'px',lineHeight: itemSize + 'px' }">
+        :style="{ height: itemSize + 'px'}">
         <slot :row="item"></slot>
       </tr>
     </table>
